@@ -1,6 +1,9 @@
-balance = int(input("enter balance:"))
-deposit = int(input("enter deposit:"))
-withdrawal = int(input("enter withdrawal:"))
+import sys
+
+
+balance = int(sys.argv[1])
+deposit = int(sys.argv[2])
+withdrawal = int(sys.argv[3])
 
 
 finalamount = balance + deposit
